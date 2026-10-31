@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coba css - font styling</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Redaction+70:ital,wght@0,400;0,700;1,400&family=Yarndings+12&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Redaction+35:ital,wght@0,400;0,700;1,400&family=Redaction+70:ital,wght@0,400;0,700;1,400&display=swap');
+
+    @font-face {
+        font-family: Playwrite;
+        src: url('fonts/PlaywriteITTrad-VariableFont_wght.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    h1 {
+        font-size: 60px;
+        color: crimson;
+        text-align: center;
+        font-family: "Redaction 35", serif;
+    }
+
+    p {
+        color: sienna;
+        text-align: center;
+        font-family:"Redaction 70", sans-serif;
+        font-size: 30px;
+    }
+
+    .font-playwrite {
+        font-family: Playwrite, Arial, sans-serif; 
+
+    }
+</style>
+<body>
+    <h1>Hello World</h1>
+    <p class="font-playwrite">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus saepe eligendi soluta cumque obcaecati natus ipsam dicta perferendis officiis labore?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti vitae ratione deserunt amet molestiae repellat perferendis perspiciatis, eligendi ad facilis harum beatae id molestias optio!</p>
+</body>
+</html>
