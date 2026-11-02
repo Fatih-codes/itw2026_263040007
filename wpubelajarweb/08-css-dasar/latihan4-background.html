@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://images.unsplash.com/photo-1534088568595-a066f410bcda?q=80&w=1000&auto=format&fit=crop') no-repeat center center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            color: white;
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .kotak {
+            background-color: #e5ebed;
+            width: 450px;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 15px 15px 0px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 25px;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .avatar {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .nama-user h3 {
+            margin: 0;
+            font-size: 16px;
+            color: #1a1a1a;
+        }
+
+        .nama-user p {
+            margin: 2px 0 0 0;
+            font-size: 12px;
+            color: #666;
+        }
+
+        .dots {
+            display: flex;
+            gap: 6px;
+        }
+
+        .dot {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+        }
+
+        .dot-1 { background-color: #4a7c89; }
+        .dot-2 { background-color: #707070; }
+        .dot-3 { background-color: #e2a072; }
+        .dot-4 { background-color: #b57a62; }
+
+        .kata {
+            font-size: 22px;
+            color: #1a1a1a;
+            line-height: 1.4;
+            margin: 0 0 30px 0;
+            font-weight: 500;
+        }
+
+        .hashtags {
+            display: flex;
+            gap: 15px;
+            font-size: 13px;
+            color: #777;
+        }
+
+        .watermark {
+            color: white;
+            margin-top: 40px;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Kata<br>Bijak</h1>
+
+    <div class="kotak">
+        <div class="profile">
+            <div class="user-info">
+                <img src="img/end.webp" alt="Avatar" class="avatar">
+                <div class="nama-user">
+                    <h3>Alfatih </h3>
+                    <p>@alfatihfaiqrahman_</p>
+                </div>
+            </div>
+            <div class="dots">
+                <span class="dot dot-1"></span>
+                <span class="dot dot-2"></span>
+                <span class="dot dot-3"></span>
+                <span class="dot dot-4"></span>
+            </div>
+        </div>
+
+        <p class="kata">Rumah bukan hanya sebuah tempat, tetapi itu adalah perasaan</p>
+
+        <div class="hashtags">
+            <span>#katabijak</span>
+            <span>#motivasi</span>
+            <span>#kehidupan</span>
+        </div>
+    </div>
+
+    <div class="watermark">@Mantap Pokonya</div>
+
+</body>
+</html>
